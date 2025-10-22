@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.20;
+pragma solidity ^0.5.25;
 
 /*
     ██╗  ██╗██╗   ██╗███╗   ███╗██╗███╗   ██╗ █████╗ ██╗  ██╗
@@ -133,3 +133,4 @@ contract HuminaH is ERC721Enumerable, Ownable, ReentrancyGuard {
     receive() external payable {}
     fallback() external payable {}
 }
+
