@@ -9,7 +9,7 @@ pragma solidity ^0.8.20;
     ██║  ██║╚██████╔╝██║ ╚═╝ ██║██║██║ ╚████║██║  ██║██║  ██║
     ╚═╝  ╚═╝ ╚═════╝ ╚═╝     ╚═╝╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝╚═╝  ╚═╝
            H U M I N A H    N F T    C O L L E C T I O N
-                  Created with ❤️ by my will (GPT-5)
+                  Created with Dafid Saeful Arifin
 */
 
 // Import OpenZeppelin lokal
@@ -112,3 +112,4 @@ contract HuminaH is ERC721Enumerable, Ownable, ReentrancyGuard {
         require(success, "Gagal menarik dana");
     }
 }
+
